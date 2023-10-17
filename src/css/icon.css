@@ -1,0 +1,309 @@
+.icon {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.icon-logo {
+  width: 36px;
+  height: 36px;
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -20px -680px;
+}
+
+.icon-bell {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -332px -109px;
+  width: 16px;
+  height: 20px;
+  transform: scale(1.2);
+}
+
+.icon-four-squares {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -199px -23px;
+  width: 18px;
+  height: 18px;
+  transform: scale(calc(4 / 3));
+}
+
+.icon-help {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -67px -67px;
+  width: 18px;
+  height: 18px;
+  transform: scale(calc(4 / 3));
+}
+
+.icon-default-avatar {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -23px -23px;
+  width: 18px;
+  height: 18px;
+  transform: scale(calc(4 / 3));
+}
+
+.icon-triangle-down {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -68px -320px;
+  width: 20px;
+  height: 36px;
+}
+
+.input-and-icon .icon-triangle-down {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.icon-up-and-down {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  column-gap: 4px;
+}
+
+.input-and-icon .icon-up-and-down {
+  position: absolute;
+  top: 0;
+  right: 8px;
+  padding-left: 8px;
+}
+
+.icon-up {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -204px -332px;
+  width: 8px;
+  height: 5px;
+  margin-bottom: 5px;
+}
+.icon-down {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -204px -343px;
+  width: 8px;
+  height: 5px;
+}
+
+.icon-overview {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -21px -153px;
+  width: 22px;
+  height: 22px;
+}
+
+.nav-item:focus .icon-overview,
+.nav-item:active .icon-overview {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -22px -198px;
+  width: 22px;
+  height: 22px;
+}
+
+.icon-asset {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -65px -153px;
+  width: 22px;
+  height: 23px;
+}
+
+.nav-item:focus .icon-asset,
+.nav-item:active .icon-asset {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -65px -197px;
+  width: 22px;
+  height: 23px;
+}
+
+.icon-other-asset {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -110px -153px;
+  width: 21px;
+  height: 23px;
+}
+
+.nav-item:focus .icon-other-asset,
+.nav-item:active .icon-other-asset {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -110px -197px;
+  width: 21px;
+  height: 23px;
+}
+
+.icon-tool {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -153px -153px;
+  width: 22px;
+  height: 22px;
+}
+
+.nav-item:focus .icon-tool,
+.nav-item:active .icon-tool {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -153px -197px;
+  width: 22px;
+  height: 22px;
+}
+
+.icon-category {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -197px -155px;
+  width: 22px;
+  height: 18px;
+}
+
+.nav-item:focus .icon-category,
+.nav-item:active .icon-category {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -198px -200px;
+  width: 22px;
+  height: 18px;
+}
+
+.icon-find {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -241px -153px;
+  width: 22px;
+  height: 22px;
+}
+
+.nav-item:focus .icon-find,
+.nav-item:active .icon-find {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -240px -196px;
+  width: 22px;
+  height: 22px;
+}
+
+.icon-find-dark {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -240px -20px;
+  width: 22px;
+  height: 22px;
+}
+
+.container-header-left-child .icon-find-dark {
+  position: absolute;
+  top: 8px;
+  left: 4px;
+}
+
+.icon-report {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -329px -153px;
+  width: 22px;
+  height: 22px;
+}
+
+.nav-item:focus .icon-report,
+.nav-item:active .icon-report {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -330px -198px;
+  width: 22px;
+  height: 22px;
+}
+
+.icon-v-down {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -158px -293px;
+  width: 12px;
+  height: 7px;
+}
+
+.nav .icon {
+  position: absolute;
+  top: calc(50% - 11px);
+}
+
+.nav .icon.icon-v-down {
+  top: calc(50% - 3px);
+  right: 4px;
+}
+
+.icon-collapse {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -285px -417px;
+  width: 22px;
+  height: 22px;
+}
+
+.icon-expand {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -329px -417px;
+  width: 22px;
+  height: 22px;
+}
+
+.icon-dropdown {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -158px -249px;
+  width: 12px;
+  height: 7px;
+}
+
+.container-header-left-child .icon-triangle-down, m-combobox .icon-triangle-down {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.icon-excel {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -287px -111px;
+  width: 18px;
+  height: 17px;
+  transform: scale(calc(4 / 3));
+}
+
+.icon-trash-bin {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -419px -111px;
+  width: 18px;
+  height: 18px;
+  transform: scale(calc(4 / 3));
+}
+
+.icon-filter {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -243px -69px;
+  width: 17px;
+  height: 16px;
+}
+
+.container-header-left-child .icon-filter {
+  position: absolute;
+  top: 12px;
+  left: 8px;
+}
+
+.icon-modify, .icon-copy  { 
+  display: hidden;
+}
+
+tr:hover .icon-modify, tr:active .icon-modify, tr:focus .icon-modify{
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -156px -68px;
+  width: 16px;
+  height: 16px;
+  z-index: auto;
+  display: block;
+}
+
+tr:hover .icon-copy, tr:active .icon-copy, tr:focus .icon-copy{
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -244px -112px;
+  width: 16px;
+  height: 16px;
+  z-index: auto;
+  display: block;
+}
+
+.icon-next {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -71px -246px;
+  width: 8px;
+  height: 12px;
+}
+
+.icon-prev {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -29px -246px;
+  width: 8px;
+  height: 12px;
+}
+
+.icon-close {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -375px -287px;
+  width: 18px;
+  height: 18px;
+}
+
+.icon-success {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -111px -594px;
+  width: 18px;
+  height: 20px;
+}
+
+.icon-warning {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -416px -66px;
+  width: 24px;
+  height: 20px;
+}
+
+.icon-horizontal-three-dots {
+  background: url("../assets/icon/qlts-icon.svg") no-repeat -422px -31px;
+  width: 13px;
+	height: 3px;
+}

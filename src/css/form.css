@@ -1,0 +1,76 @@
+/* Làm mờ background */
+.add-asset {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(90, 90, 90, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.add-asset-container {
+  width: 64vw;
+  height: fit-content;
+  background-color: #ffffff;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  z-index: 3;
+}
+
+.form-header {
+  width: calc(100% - 32px);
+  height: fit-content;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.form-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.form-body {
+  width: calc(100% - 32px);
+  height: fit-content;
+  display: flex;
+  column-gap: 16px;
+}
+
+.form-body-left {
+  flex: 1;
+}
+
+.form-body-right {
+  flex: 2;
+}
+
+.form-body-grandchild {
+  width: 100%;
+  display: flex;
+  column-gap: 16px;
+}
+
+.form-body-grandchild .text-input-container {
+  flex: 1;
+}
+
+.form-footer {
+  width: 100%;
+  height: 52px;
+  background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  column-gap: 10px;
+}

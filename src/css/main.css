@@ -1,0 +1,54 @@
+/* css dùng chung cho cả project */
+
+body {
+  margin: 0px;
+}
+
+* {
+  font-size: 13px;
+  font-family: Roboto, sans-serif;
+}
+
+@font-face {
+  font-family: Roboto, sans-serif;
+  src: url(../assets/font/GoogleSans-Regular.otf);
+}
+
+@font-face {
+  font-family: Roboto, sans-serif;
+  src: url(../assets/font/GoogleSans-Medium.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Roboto, sans-serif;
+  src: url(../assets/font/GoogleSans-MediumItalic.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Roboto, sans-serif;
+  src: url(../assets/font/GoogleSans-Bold.otf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Roboto, sans-serif;
+  src: url(../assets/font/GoogleSans-BoldItalic.otf);
+  font-weight: 700;
+}
+
+
+/* Các biến màu sắc */
+:root {
+  --color-primary: #3395FF;
+  --color-hover: #66AFFF;
+  --color-focus: #007AFF;
+  --color-active: #0062CC;
+  --color-disable: #ceead9;
+  --color-border-default: #e0e0e0;
+  --color-border-hover: #e3e3e3;
+  --color-border-focus: #e3e3e3;
+  --color-border-active: #e3e3e3;
+  --color-button-text: #ffffff;
+}

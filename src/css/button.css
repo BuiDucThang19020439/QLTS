@@ -1,0 +1,188 @@
+/*
+  * Button
+*/
+.btn {
+  width: fit-content;
+  height: 36px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  opacity: 100%;
+  margin: 4px;
+  padding: 9px 19px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: none;
+}
+
+/* vô hiệu hóa button*/
+.btn:disabled {
+  opacity: 56%;
+  pointer-events: none;
+}
+
+/* Nút chính 
+      *Nhấn mạnh vào hành động "hoàn thành" hoặc "đề xuất"
+      *Có nhiều nhất một nút chính cho mỗi nhóm nút
+  */
+
+.btn-primary {
+  min-width: 80px;
+  color: var(--color-button-text);
+  background-color: var(--color-primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-hover);
+}
+
+.btn-primary:focus {
+  background-color: var(--color-focus);
+  outline: 1px solid var(--color-focus);
+}
+
+.btn-primary:active {
+  background-color: var(--color-active);
+  outline: 1px solid var(--color-focus);
+}
+
+/* Nút phụ
+      *Các nút phụ được sử dụng cho các hành động không phải chính.
+      *Là lựa chọn an toàn trong mọi trường hợp.
+      *Có màu chữ và màu nền khác nút chính
+  */
+
+.btn.btn-secondary {
+  width: 80px;
+  color: var(--color-text-default);
+  border: solid 1px #afafaf;
+}
+
+.btn.btn-secondary:hover {
+  background-color: var(--color-border-focus);
+}
+
+.btn.btn-secondary:focus {
+  background-color: var(#aaaaaa);
+  outline: 1px solid var(--color-focus);
+}
+
+.btn.btn-secondary:active {
+  background-color: var(#aaaaaa);
+  outline: 1px solid var(--color-focus);
+}
+
+/* Link button
+      *Các nút văn bản có độ tương phản nhẹ thường được sử dụng cho các hành động ít quan trọng hơn.
+      *Chỉ có content, ko padding.
+  */
+
+.btn.btn-link {
+  color: var(--color-primary);
+  background-color: #fff;
+}
+.btn.btn-link:hover {
+  color: var(--color-hover);
+}
+
+.btn.btn-link:focus {
+  color: var(--color-focus);
+}
+
+.btn.btn-link:active {
+  color: var(--color-active);
+}
+
+/* Icon Button */
+.btn-icon {
+  min-width: 36px;
+  min-height: 36px;
+  width: fit-content;
+  height: fit-content;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-icon:hover {
+  background-color: var(--color-hover);
+  cursor: pointer;
+}
+
+.btn-icon:focus {
+  background-color: var(--color-focus);
+  cursor: pointer;
+}
+
+.btn-icon:active {
+  background-color: var(--color-focus);
+  cursor: pointer;
+}
+
+
+/*
+  nút của phần phân trang
+*/
+.footer .btn.btn-secondary {
+  height: 24px;
+  width: 24px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--color-border-default);
+  background-color: #cccccc;
+}
+
+.footer .btn.btn-secondary:hover {
+  border: 1px solid var(--color-hover)
+}
+
+.footer .btn.btn-secondary:focus, .footer .btn.btn-secondary:focus-visible {
+  border: 1px solid var(--color-focus)
+}
+
+.footer .btn.btn-secondary:active {
+  border: 1px solid var(--color-active)
+}
+
+.footer .btn-icon {
+  min-width: 24px;
+  min-height: 24px;
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.paging-button-list {
+  display: flex;
+  column-gap: 12px;
+}
+
+/*
+  css của nút chính trong form
+*/
+.form-footer .btn.btn-primary {
+  margin-right: 16px;
+}
+
+/*
+  css của nút thêm tài sản
+*/
+.container-header-right .btn.btn-primary {
+  background-color: #1aa4c8;
+  border-radius: 3px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.16);
+  width: 120px;
+  height: 36px;
+  overflow: hidden;
+  padding: 11px 20px 10px 11px;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+.container-header-right .btn.btn-primary:hover {
+  background-color: #1a93b7;
+}

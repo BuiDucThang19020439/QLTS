@@ -1,0 +1,18 @@
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #cccccc;
+}
+
+/* .no-scrollbar {
+  overflow: -moz-scrollbars-none;
+  overflow: scroll !important;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+} */
